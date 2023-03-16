@@ -47,7 +47,7 @@ today = datetime(year=2023, month=3, day=16)
 
 pixel_data = {
     "date": today.strftime("%Y%m%d"),
-    "quantity": "25"
+    "quantity": input("How many pages did you read today? ")
 }
 
 # response = requests.post(url=create_pixel_endpoint, json=pixel_data, headers=headers)
